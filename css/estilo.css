@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* conteudo total */
+.conteudo p a {
+	margin-top: 10px;
+	font-family: Helvetica, sans-serif;
+	color: #212529;
+	text-decoration: underline;
+}
+
+.conteudo p {
+	font-family: Helvetica, sans-serif;
+	color: #212529;
+	text-decoration: none;
+}
+
+/* menu */
+.menu {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+/* menu de navegação */
+nav {
+	margin-top: 15px;
+	display: flex;
+	flex-flow: row;
+	width: 100%;
+}	
+
+/* todas as caixas flexiveis nav, ul, li, a*/
+nav ul {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+}
+
+nav ul li {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+nav ul li a {
+	display: flex;
+	padding: 15px;
+	flex-flow: row wrap;
+	font-family: Helvetica, sans-serif;
+	color: #337ab7;
+	text-decoration: none;
+	justify-content: center;
+	margin: 5px;
+}
+
+/* marcar a casa/home com background azul*/
+a.casa {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #337ab7;
+	color: white;
+}
+	
+/* artigos */
+.artigos {
+	display: flex;
+	flex-flow: column;
+	background-color: #f1f1f1;
+	color: black;	
+	min-height: 250px;
+	width: 100%;
+	padding: 9px;	
+}
+
+/*titulo h1 dos artigos da home*/
+.artigos h1 {
+	color: #424B76;
+	font-family: 'Ubuntu', monospace;
+}
+
+/*artigos a ler artigo completo */
+.artigos a {
+	font-family: arial, sans-serif, georgia;
+	margin-bottom: 25px;
+	text-decoration: none;
+	color: #337ab7;
+}
+
+/* p descrição do artigo */
+.artigos p {
+	font-family: arial, Georgia, serif;
+	font-size: 1.6em;
+	letter-spacing: 1px;
+	line-height: 2;
+	margin-top: 15px;
+	color: #333;
+}
+
+/*margin-top texto dos artigos em cima do titulo*/
+.texto_artigos {
+	margin-top: 35px;
+}
+
+/* formatação dos butoẽs */
+a.button_pag {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 30%;
+	color: white;
+	padding: 5px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #337ab7;
+}
+
+/* h5 data do artigo */
+h5 {
+	margin-top: 6px;
+	font-family: arial, sans-serif, georgia;
+	font-style: italic;
+	color: #333;
+}
+
+/* paragrafo do arquivo sobre */
+p.sobre {
+	font-family: arial, sans-serif, georgia, serif;
+	font-size: 1.4em;
+	margin: 9px;
+}
+
+/* formulario */
+.form {
+	display: flex;
+	flex-flow: row wrap;
+	width: 20%;
+	margin: 9px;
+}
+
+textarea {
+	width: 250%;
+	height: 120px;
+}
+
+/* hr */
+hr {
+	color: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+/* rodapé */	
+footer {
+	font-size: 1.2em;
+	font-family: arial, sans-serif, georgia, serif;
+	color: white;
+	background-color: #555;
+	padding: 80px;
+}
+
+.destaque {
+	color: #f48041!important;
+}
+
+.url_falsa {
+	color: #4298f4!important;
+}
+
+/* css para telas com no minímo 768px */
+@media screen and (min-width: 768px) {
+	
+	/* conteúdo */
+	.conteudo {
+		display: flex;
+		flex-flow: row wrap;
+		width: 100%;
+	}
+	
+	/* menu/nav */
+	.menu {
+		width: 30%;
+		height: 110px;
+		background-color: #f1f1f1;
+	}
+	
+	nav {
+		display: flex;
+		flex-flow: row;
+	}
+	
+	nav ul {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	
+	nav ul li {
+		display: flex;
+		flex-flow: row;
+	}
+	
+	nav ul li a {
+		display: flex;
+		flex-flow: row;
+		color: #337ab7;
+	}
+	
+	/* artigos */
+	.artigos {
+		display: flex;
+		flex-flow: column;
+		min-height: 700px;
+		width: 70%;
+		background-color: white;
+	}
+	
+	/* conteudo/titulo */
+	.conteudo p a {
+		margin: 5px;
+		color: #337ab7;
+		font-family: Helvetica, sans-serif, arial, serif;
+		font-size: 1.0em;
+		letter-spacing: 2px;
+		background-color: transparent;
+	}
+
+	/* formulario */
+	.form {
+		display: flex;
+		flex-flow: row wrap;
+		width: 20%;
+	}
+
+	textarea {
+		width: 160%;
+		height: 120px;
+	}
+
+	a.button_pag {
+		display: flex;
+		flex-flow: column nowrap;
+		width: 30%;
+		color: white;
+		padding: 5px;
+		border-radius: 3px;
+		text-align: center;
+		background-color: #337ab7;
+	}
+	
+	/* rodapé */
+	.rodape {
+		font-size: 1.2em;
+		font-family: arial, sans-serif, georgia, serif;
+		color: white;
+		background-color: #555;
+		padding: 40px;
+	}
+}

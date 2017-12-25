@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>http://www.blogdofenestim.xyz/</loc>
+		<lastmod>2017-12-17</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>
+		<loc>http://www.blogdofenestim.xyz/home</loc>
+		<lastmod>2017-12-17</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+
+	<url>
+		<loc>http://www.blogdofenestim.xyz/sobre</loc>
+		<lastmod>2017-12-17</lastmod>
+	</url>
+
+	<url>
+		<loc>http://www.blogdofenestim.xyz/operador-null-coalesce-??-novidade-php7</loc>
+		<lastmod>2017-09-19</lastmod>
+	</url>
+	<url>
+		<loc>http://www.blogdofenestim.xyz/gerar-hash-em-senhas-php-atualizado</loc>
+		<lastmod>2017-09-03</lastmod>
+	</url>
+		<url>
+		<loc>http://www.blogdofenestim.xyz/rfi-em-php</loc>
+		<lastmod>2017-12-21</lastmod>
+	</url>
+</urlset>

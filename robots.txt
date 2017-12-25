@@ -1,0 +1,32 @@
+User-agent: *
+Disallow: /css
+
+User-agent: * 
+Disallow: /helpers
+
+User-agent: * 
+Disallow: /views
+
+User-agent: *
+Disallow: /models
+
+User-agent: *
+Disallow: /* $.htaccess
+
+User-agent: *
+Disallow: /controllers
+
+User-agent: *
+Disallow: /artigos
+
+User-agent: *
+Disallow: 404.html
+
+User-agent: *
+Disallow: www.blogdofenestim.xyz/index.php?rota=sobre
+
+User-agent: *
+Disallow: www.blogdofenestim.xyz/index.php?rota=artigos&pagina=2
+
+User-agent: MJ12bot
+Crawl-Delay: 10

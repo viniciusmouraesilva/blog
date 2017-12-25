@@ -1,0 +1,26 @@
+<FilesMatch ".(htm|html|css)$">
+AddDefaultCharset UTF-8
+</FilesMatch>
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([a-z-0-9]+)$ index.php?$1 [L]
+
+</IfModule>
+
+Options -Indexes
+
+#ServerSignature off
+#ServerTokens Prod
+
